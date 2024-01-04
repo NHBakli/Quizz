@@ -1,7 +1,8 @@
 <?php 
 
+function homepage(){
+    include_once("../View/HomeView.php");
+}
+
 class HomeController {
-    public static function homepage() {
-        echo "BONJOUR";
-    }
 }

@@ -1,0 +1,23 @@
+@import './general';
+
+h1{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: red;
+}
+
+p, a{
+    margin-bottom: 2%;
+    text-align: center;
+    color: $text-color;
+}
+
+a{
+    font-weight: bold;
+    color: red;
+
+    &:hover{
+        color: white;
+    }
+}

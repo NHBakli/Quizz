@@ -32,3 +32,6 @@ class CreateTable {
     }
 }
 
+$tableCreator = new CreateTable($db);
+
+$tableCreator->createUsersTable();
